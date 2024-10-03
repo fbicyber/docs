@@ -212,6 +212,11 @@ Here are the configuration keys, for both containers (environment variables) and
 | smtp:reject_unauthorized | SMTP__REJECT_UNAUTHORIZED | `false`       | Enable TLS certificate check              |
 | smtp:username            | SMTP__USERNAME            |               | SMTP Username if authentication is needed |
 | smtp:password            | SMTP__PASSWORD            |               | SMTP Password if authentication is needed |
+| smtp:notifier_enabled    | SMTP__NOTIFIER_ENABLED    | `false`       | Enable notification emails                |
+| smtp:notifier_from_email | SMTP__NOTIFIER_FROM_EMAIL |               | Who is sending the notifying email        |
+| smtp:notifier_email_list | SMTP__NOTIFIER_EMAIL_LIST |               | Who is receiving the notifying email      |
+| smtp:notifier_email_subject | SMTP__NOTIFIER_EMAIL_SUBJECT |         | The subject section of notifying email    |
+| smtp:notifier_email_intro| SMTP__NOTIFIER_EMAIL_INTRO|               | The beginning message in body of notifying email|
 
 #### AI Service
 
